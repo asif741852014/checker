@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  check:
+  PR_Status_Check:   # Match the branch rule exactly here
     runs-on: ubuntu-latest
     steps:
       - name: Run Status Check
